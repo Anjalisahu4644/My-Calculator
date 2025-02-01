@@ -57,7 +57,7 @@ button:hover {
 
 @media (max-width: 600px) {
     .calculator {
-        width: 90%; /* Adjust width for small screens */
+        width: 80%; /* Adjust width for small screens */
         padding: 15px;
     }
 
@@ -68,8 +68,8 @@ button:hover {
 
     .buttons {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* Flexible button grid */
-        gap: 8px;
+        grid-template-columns: repeat(4, 2fr); /* Flexible button grid */
+        gap: 10px;
     }
 
     button {
