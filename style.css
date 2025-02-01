@@ -62,18 +62,16 @@ button:hover {
 
     #display {
         font-size: 1.3em; /* Reduce font size */
-        height: 40px;
+        height: 60px;
     }
 
     .buttons {
         display: grid;
         grid-template-columns: repeat(4, 65fr); /* Flexible button grid */
-        gap: 10px;
-        size: 80px;
+        gap: 8px;
     }
 
     button {
-        height: 80px;
         font-size: 1.5em;
         text-align: center;
         padding-right: 10px;
