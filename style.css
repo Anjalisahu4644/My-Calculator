@@ -67,13 +67,15 @@ button:hover {
 
     .buttons {
         display: grid;
-        grid-template-columns: repeat(4, 80px); /* Flexible button grid */
+        grid-template-columns: repeat(4, 90px); /* Flexible button grid */
         gap: 10px;
     }
 
     button {
         height: 60px;
         font-size: 1.2em;
+        text-align: center;
+        padding-left: 10px;
     }
 }
 
