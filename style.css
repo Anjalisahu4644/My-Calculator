@@ -68,13 +68,13 @@ button:hover {
 
     .buttons {
         display: grid;
-        grid-template-columns: repeat(4, 2fr); /* Flexible button grid */
+        grid-template-columns: repeat(4, 65px); /* Flexible button grid */
         gap: 10px;
     }
 
     button {
         height: 50px;
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 }
 
