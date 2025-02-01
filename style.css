@@ -19,6 +19,7 @@ body {
 
 h1 {
     margin-bottom: 10px;
+    font-size: 60px;
 }
 
 #display {
@@ -49,36 +50,36 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+
 }
 
 button:hover {
     background: #043b2e;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .calculator {
         width: 90%; /* Adjust width for small screens */
+        padding: 15px;
     }
 
     #display {
-        font-size: 1.3em; /* Reduce font size */
+        font-size: 20px; /* Reduce font size */
         height: 60px;
     }
 
     .buttons {
         display: grid;
-        grid-template-columns: repeat(4, 65fr); /* Flexible button grid */
-        gap: 8px;
+        grid-template-columns: repeat(4, 1fr); /* Flexible button grid */
+        gap: 10px;
     }
 
     button {
-        font-size: 1.5em;
-        text-align: center;
-        padding-right: 10px;
+        font-size: 18pxm;
+        height: 50px
     }
     img{
         max-width: 100%;
-        height: auto;
     }
 }
 
